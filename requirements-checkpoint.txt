@@ -1,0 +1,6 @@
+streamlit
+scikit-learn
+nltk
+imbalanced-learn
+numpy
+pandas
