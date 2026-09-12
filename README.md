@@ -3,19 +3,17 @@
 > An NLP-powered web application that classifies SMS messages as **Ham ✉️** or **Spam 🚫** in real time — built with Machine Learning and deployed on Streamlit.
 
 <p align="center">
-  <a href="https://spam-detector-talvr2jjfrfmuazwchjebm.streamlit.app/">
-    <img src="https://img.shields.io/badge/🚀 Live Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Demo"/>
-  </a>
   <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
   <img src="https://img.shields.io/badge/NLP-NLTK-009900?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
 </p>
 
 ---
 
 ## 🔗 Live Demo
 
-> 🌐 **Try the app here:** [https://spam-detector-talvr2jjfrfmuazwchjebm.streamlit.app/]
+> 🌐 **Try the app here:** _[https://spam-detector-talvr2jjfrfmuazwchjebm.streamlit.app/]_
 
 ---
 
@@ -30,6 +28,7 @@
 - [Project Structure](#project-structure)
 - [How to Run Locally](#how-to-run-locally)
 - [Tech Stack](#tech-stack)
+- [Author](#author)
 
 ---
 
@@ -50,7 +49,7 @@ The full pipeline covers data cleaning, exploratory data analysis, text preproce
 
 > Screenshot of the app making a live prediction:
 
-![App Prediction Screenshot](https://raw.githubusercontent.com/Mohanad06/Spam-Detector/main/screenshots/Prediction.PNG)
+![App Prediction Screenshot](https://raw.githubusercontent.com/Mohammed-elsafty74/nlp-spam-classifier/main/screenshots/Prediction.PNG)
 
 ---
 
@@ -119,7 +118,7 @@ The final model produces very few false positives — legitimate messages are al
 ## 📁 Project Structure
 
 ```
-sms-spam-detector/
+nlp-spam-classifier/
 │
 ├── app.py                               # Streamlit web application
 ├── requirements.txt                     # Python dependencies
@@ -127,12 +126,13 @@ sms-spam-detector/
 ├── model.pkl                            # Trained BernoulliNB model
 ├── vectorizer.pkl                       # Fitted TF-IDF vectorizer
 │
-├── spam.csv                             # Raw dataset (UCI SMS Spam Collection)
+├── dataset/                             # Raw dataset (UCI SMS Spam Collection)
 │
 ├── End-To-End_SMS_Spam_Detector.ipynb   # Full training notebook
 │
-└── screenshots/
-    └── prediction.png                   # App screenshot (for README)
+├── screenshots/                         # App screenshots (for README)
+│
+└── .gitignore
 ```
 
 ---
@@ -146,8 +146,8 @@ sms-spam-detector/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Mohanad06/Spam-Detector.git
-cd Spam-Detector
+git clone https://github.com/Mohammed-elsafty74/nlp-spam-classifier.git
+cd nlp-spam-classifier
 
 # 2. Install dependencies
 pip install -r requirements.txt
@@ -184,9 +184,10 @@ The app will open automatically in your browser at **http://localhost:8501**
 
 ## 👤 Author
 
-- **Name:** Mohanad Mostafa  
-- **College:** BFCAI  
-- **Course:** Natural Language Processing
+- **Name:** Mohammed Elsafty
+- **GitHub:** [@Mohammed-elsafty74](https://github.com/Mohammed-elsafty74)
+- **Field:**— AI & Data Science
+
 ---
 
 ## 📄 License
