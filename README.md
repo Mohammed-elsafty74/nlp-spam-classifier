@@ -185,7 +185,6 @@ The app will open automatically in your browser at **http://localhost:8501**
 ## 👤 Author
 
 - **Name:** Mohammed Elsafty
-- **GitHub:** [@Mohammed-elsafty74](https://github.com/Mohammed-elsafty74)
 - **Field:**— AI & Data Science
 
 ---
